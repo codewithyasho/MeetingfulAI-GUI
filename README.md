@@ -18,12 +18,12 @@ It features a sleek, dark-mode GUI built with CustomTkinter. The app records sys
 
 ```mermaid
 flowchart TD
- A[Audio Input (GUI)] --> B[Chunk Audio]
- B --> C{Transcribe or Translate using Groq}
- C --> D[Transcript]
- D --> E[Summarize using Mistral]
- D --> F[RAG Q&A using Mistral]
- E --> G[Tabs: Summary, Action Items, Decisions, Questions]
+ A["Audio Input (GUI)"] --> B["Chunk Audio"]
+ B --> C{"Transcribe or Translate using Groq"}
+ C --> D["Transcript"]
+ D --> E["Summarize using Mistral"]
+ D --> F["RAG Q&A using Mistral"]
+ E --> G["Tabs: Summary, Action Items, Decisions, Questions"]
 ```
 
 ## Requirements
